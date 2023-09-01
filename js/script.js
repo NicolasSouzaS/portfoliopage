@@ -48,8 +48,8 @@ function enviarEmail() {
         message: document.getElementById("txtmensagem").value
       };
     
-      let serviceID = "service_soqusij";
-      let templateID = "template_1nea1la";
+      let serviceID = "service_8evd8s8";
+      let templateID = "template_38rc8bj";
         emailjs.send(serviceID, templateID, params).then(
           function (response) {
             console.log("E-mail enviado com sucesso!", response);
